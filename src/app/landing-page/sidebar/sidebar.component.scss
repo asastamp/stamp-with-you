@@ -1,0 +1,26 @@
+.sidebar-container {
+	background-color: #2980b9;
+	position: fixed;
+	width: 10rem;
+	height: 100%;
+}
+.icon {
+	width: inherit;
+}
+
+.logo {
+	width: 5rem;
+}
+
+.social-network {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2rem;
+	height: 100%;
+	cursor: pointer;
+	& > * {
+		margin-top: 2rem;
+		color: white;
+	}
+}
