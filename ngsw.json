@@ -1,0 +1,94 @@
+{
+  "configVersion": 1,
+  "timestamp": 1618393652677,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "./favicon.ico",
+        "./index.html",
+        "./main-es2015.8dca780c7bdd7da32346.js",
+        "./main-es5.8dca780c7bdd7da32346.js",
+        "./manifest.webmanifest",
+        "./polyfills-es2015.690002c25ea8557bb4b0.js",
+        "./polyfills-es5.9e286f6d9247438cbb02.js",
+        "./runtime-es2015.1eba213af0b233498d9d.js",
+        "./runtime-es5.1eba213af0b233498d9d.js",
+        "./styles.1da2ca99f16a100d1fbe.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "./assets/icons/contact/email.png",
+        "./assets/icons/contact/facebook.svg",
+        "./assets/icons/contact/github.svg",
+        "./assets/icons/contact/instagram.svg",
+        "./assets/icons/contact/linkedin.svg",
+        "./assets/icons/contact/phone-call.png",
+        "./assets/icons/manifest/icon-192x192.png",
+        "./assets/icons/manifest/icon-256x256.png",
+        "./assets/icons/manifest/icon-384x384.png",
+        "./assets/icons/manifest/icon-512x512.png",
+        "./assets/icons/technology/angular.png",
+        "./assets/icons/technology/firebase.svg",
+        "./assets/logo-mini.png",
+        "./assets/logo.png",
+        "./assets/profile-img.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./assets/icons/contact/email.png": "c6de51bb229039c8b30ce7fe318b9f94e6923aad",
+    "./assets/icons/contact/facebook.svg": "00d4d13f1e96832b6f7ee4a239e93bcd701a0168",
+    "./assets/icons/contact/github.svg": "9f2604df2bf8ec1190947bba1cfacb70562f89b1",
+    "./assets/icons/contact/instagram.svg": "78994c894fdc057179f06078a8f60f602c90616d",
+    "./assets/icons/contact/linkedin.svg": "426d06ae8512e3f99682c85d520b9b8737c1187d",
+    "./assets/icons/contact/phone-call.png": "256c3e0eaf0263adc35e2dd81d30fa0ed6c24eba",
+    "./assets/icons/manifest/icon-192x192.png": "5d33fa017a6b2195f8d6013d7d50a603b52b3e9c",
+    "./assets/icons/manifest/icon-256x256.png": "7f693b8bcba474705899a4e5fc546af1c47dc40b",
+    "./assets/icons/manifest/icon-384x384.png": "43edb356c764feba08bcf4383abc168d4eb5a2c1",
+    "./assets/icons/manifest/icon-512x512.png": "207d1b349bb674bd8758f1e497fb94a7f32bac32",
+    "./assets/icons/technology/angular.png": "6e0dea75fe61da06de0e8c84f3d59ad63948e3c4",
+    "./assets/icons/technology/firebase.svg": "ffb0e385df05be34398926a82ca85951815436e6",
+    "./assets/logo-mini.png": "1cabbfbf559c8ba621a9062eeff359b09fb8f1a6",
+    "./assets/logo.png": "9aad5cc0a815e09c05158c90edec2b646a14a02f",
+    "./assets/profile-img.png": "f9b2753dfdad09f7b20d73c58d91799dee80ce75",
+    "./favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "./index.html": "2aa77c43551f59b64cb4148071f959708f139d56",
+    "./main-es2015.8dca780c7bdd7da32346.js": "61c1d1487eb9cdbd3ecd64904d977ea0f872e4ad",
+    "./main-es5.8dca780c7bdd7da32346.js": "6c8fe3ecd7dc32e52e9fd73936fbbe269fa97616",
+    "./manifest.webmanifest": "e8a9cd12deed624ff29414ffcfce1959ae882b2d",
+    "./polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "./polyfills-es5.9e286f6d9247438cbb02.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "./runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "./runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "./styles.1da2ca99f16a100d1fbe.css": "720fe2da681e732377ba9e150b8ca013191346fe"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
