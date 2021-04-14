@@ -6,7 +6,6 @@
 
     background-color: white;
 
-
     & > .left-panel {
         flex-basis: 30%;
 
@@ -22,26 +21,43 @@
 
     & > .right-panel {
         flex-basis: 70%;
-        
-        padding: 20px;
+
+        padding: 20px 40px;
 
         display: flex;
         flex-direction: column;
         align-items: center;
         row-gap: 20px;
-        
     }
 
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
 
-    @media only screen  and (max-width : 768px) {
-        margin: 0 50px 0 50px;
-    
-    } 
+        margin: 0;
+        border-radius: 0;
+
+        & > .left-panel {
+            padding: 10px;
+            border-radius: 0;
+        }
+
+        & > .right-panel {
+            padding: 10px 10px;
+        }
+    }
 }
 
 .header {
     font-size: 24px;
     font-weight: 600;
+    text-align: center;
+    padding: 0 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        font-size: 18px;
+    }
 }
 
 .contact {
@@ -66,20 +82,48 @@
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .contact-group {
+        grid-template-columns: 20px max-content;
+        grid-gap: 0;
+    }
+
+    .contact-header {
+        margin-bottom: 10px;
+    }
+}
+
 .description {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    > .name,
-    > .surname {
+
+    > * {
+        text-align: center;
+    }
+
+    > .name {
         font-size: 48px;
         font-weight: 600;
         margin: 30px;
     }
 
-    .description {
+    > .description-info {
         font-size: 20px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        margin-bottom: 0;
+        > .name {
+            font-size: 24px;
+            font-weight: 600;
+            margin: 10px;
+        }
+
+        > .description-info {
+            font-size: 18px;
+        }
     }
 }
 
@@ -89,6 +133,12 @@
     height: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
 
 .value {
     font-size: 14px;
@@ -116,13 +166,20 @@
     border-radius: 50%;
 
     &:hover {
-        box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-img-container {
+        margin: 10px 10px 20px 10px;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -133,7 +190,6 @@ a {
 }
 
 .rect-wrapper {
-    width: 500px;
     background-color: #fd79a8;
 
     display: flex;
@@ -143,13 +199,12 @@ a {
 
 .inner-wrapper {
     background-color: white;
-    width: calc(500px - 20px);
+    width: calc(100% - 20px);
     margin-bottom: 10px;
     padding: 20px;
 
     > .becholor,
     > .company {
-
         &:not(:last-child) {
             border-bottom: 1px solid gray;
             padding-bottom: 10px;
@@ -188,6 +243,47 @@ a {
             font-weight: 600;
         }
     }
+
+    @media only screen and (max-width: 768px) {
+        background-color: white;
+        width: calc(100% - 20px);
+        margin-bottom: 10px;
+        padding: 20px;
+
+        > .becholor,
+        > .company {
+            &:not(:last-child) {
+                border-bottom: 1px solid gray;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+
+            > .name {
+                font-size: 16px;
+            }
+            > .degree {
+                font-size: 14px;
+            }
+            > .elective-course {
+                margin-top: 6px;
+                > :is(.label, .subject) {
+                    font-size: 12px;
+                }
+                > .subject {
+                    margin-left: 20px;
+                }
+            }
+
+            > .footer {
+                font-size: 12px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.detail {
+    width: 100%;
 }
 
 .inner-header-wrapper {
@@ -196,19 +292,17 @@ a {
     align-items: center;
 
     clip-path: polygon(100% 0%, 85% 50%, 100% 100%, 0 100%, 15% 50%, 0 0);
-    width: 350px;
     height: 50px;
     background-color: #e84393;
-   
+    width: calc(100% - 100px);
+
     > .header {
         color: white;
     }
 }
 
-
 .experience-section {
     .inner-header-wrapper {
-        width: 450px;
         clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 10% 50%, 0 0);
     }
 }
