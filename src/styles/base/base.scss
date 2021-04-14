@@ -9,11 +9,13 @@
 html {
 	font-size: 62.5%;
 	font-family: "K2D", sans-serif;
+	background-color: #FEF0EF;
 }
 
 body {
 	box-sizing: border-box;
+}
 
-	background-color: #3498db;
-	color: #ecf0f1;
+:root {
+    --height-header: 100px;
 }
