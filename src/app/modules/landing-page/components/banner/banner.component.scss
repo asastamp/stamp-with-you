@@ -27,7 +27,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 20px;
+
+        > *:not(:last-child) {
+            margin-bottom: 20px;
+        }
     }
 
     @media only screen and (max-width: 768px) {
@@ -99,6 +102,14 @@
     align-items: center;
     margin-bottom: 20px;
 
+    &.mobile-description {
+        display: none;
+    }
+
+    &.desktop-description {
+        display: flex;
+    }
+
     > * {
         text-align: center;
     }
@@ -114,6 +125,17 @@
     }
 
     @media only screen and (max-width: 768px) {
+        &.mobile-description {
+            display: flex;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 50%);
+            margin-bottom: 20px;
+        }
+
+        &.desktop-description {
+            display: none;
+        }
+
         margin-bottom: 0;
         > .name {
             font-size: 24px;
@@ -203,25 +225,34 @@ a {
     margin-bottom: 10px;
     padding: 20px;
 
-    > .becholor,
-    > .company {
+    > .content {
         &:not(:last-child) {
             border-bottom: 1px solid gray;
             padding-bottom: 10px;
             margin-bottom: 10px;
         }
 
-        > .name {
-            font-size: 20px;
-            font-weight: 600;
+        > .top-header {
+            display: flex;
+            justify-content: space-between;
+            > .name {
+                font-size: 20px;
+                font-weight: 600;
+            }
+            > .date-time {
+                font-size: 18px;
+                color: #fd79a8;
+            }
         }
+
         > .degree {
-            font-size: 18px;
+            font-size: 16px;
         }
+
         > .elective-course {
             margin-top: 10px;
             > :is(.label, .subject) {
-                font-size: 18px;
+                font-size: 16px;
             }
 
             > .label {
@@ -230,17 +261,18 @@ a {
 
             > .subject {
                 margin-left: 20px;
+
+                &::before {
+                    content: "→";
+                    background-color: #fd79a8;
+                    margin-right: 5px;
+                }
             }
-        }
 
-        > .footer {
-            display: flex;
-            justify-content: space-between;
-            font-size: 18px;
-            margin-top: 10px;
-
-            color: #fd79a8;
-            font-weight: 600;
+            > * {
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
         }
     }
 
@@ -250,22 +282,23 @@ a {
         margin-bottom: 10px;
         padding: 20px;
 
-        > .becholor,
-        > .company {
+        > .content {
             &:not(:last-child) {
                 border-bottom: 1px solid gray;
                 padding-bottom: 10px;
                 margin-bottom: 10px;
             }
 
-            > .name {
-                font-size: 16px;
+            > .top-header {
+                > .name {
+                    font-size: 16px;
+                }
+                > .date-time {
+                    font-size: 14px;
+                }
             }
-            > .degree {
-                font-size: 14px;
-            }
+
             > .elective-course {
-                margin-top: 6px;
                 > :is(.label, .subject) {
                     font-size: 12px;
                 }
@@ -304,5 +337,16 @@ a {
 .experience-section {
     .inner-header-wrapper {
         clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 10% 50%, 0 0);
+    }
+}
+
+.tools-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tools {
+    > .contact-group {
+        display: grid;
     }
 }
