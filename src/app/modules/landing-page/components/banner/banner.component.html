@@ -12,27 +12,27 @@
 				CONTACT
 			</div>
 			<div class="contact-group">
-				<div class="contact-item">
+				<div class="left-panel-item">
 					<img class="icon" src="assets/icons/contact/phone-call.png" alt="" />
 					<div class="value" (click)="copyToClipboard($event)">(+66)83-585-7240</div>
 				</div>
-				<div class="contact-item">
+				<div class="left-panel-item">
 					<img class="icon" src="assets/icons/contact/email.png" alt="" />
 					<div class="value" (click)="copyToClipboard($event)">n_kittiphan@hotmail.com</div>
 				</div>
-				<div class="contact-item">
+				<div class="left-panel-item">
 					<a target="_blank" href="https://www.facebook.com/magicszombie">
 						<img class="icon" src="assets/icons/contact/facebook.svg" alt="" />
 						<div class="value">Stamp Nilprakobkul</div>
 					</a>
 				</div>
-				<div class="contact-item">
+				<div class="left-panel-item">
 					<a target="_blank" href="https://github.com/asastamp">
 						<img class="icon" src="assets/icons/contact/github.svg" alt="" />
 						<div class="value">github.com/asastamp</div>
 					</a>
 				</div>
-				<div class="contact-item">
+				<div class="left-panel-item">
 					<a target="_blank" href="https://www.linkedin.com/in/stamp-nilprakobkul">
 						<img class="icon" src="assets/icons/contact/linkedin.svg" alt="" />
 						<div class="value">www.linkedin.com/in/stamp-nilprakobkul</div>
@@ -42,130 +42,21 @@
 		</div>
 		<div class="tools">
 			<div class="tools-header header">
-				TOOLS
+				EXPEREINCED TOOL
 			</div>
-			<div class="contact-group">
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/html.svg" alt="" />
-					<div class="value">HTML</div>
+			<ng-container *ngFor="let skill of resume.skills">
+				<div class="tools-header header">
+					{{ skill.topic }}
 				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/css.svg" alt="" />
-					<div class="value">CSS</div>
+				<div class="contact-group">
+					<ng-container *ngFor="let subSkill of skill.skill">
+						<div class="left-panel-item">
+							<img class="key icon" [src]="subSkill.path" alt="" />
+							<div class="value">{{ subSkill.name }}</div>
+						</div>
+					</ng-container>
 				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/js.svg" alt="" />
-					<div class="value">Javascript</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/angular.png" alt="" />
-					<div class="value">Angular</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/react.svg" alt="" />
-					<div class="value">React</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/vue.svg" alt="" />
-					<div class="value">Vue</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/polymer.svg" alt="" />
-					<div class="value">Polymer</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/less.svg" alt="" />
-					<div class="value">LESS</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/scss.svg" alt="" />
-					<div class="value">SCSS</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/typescript.svg" alt="" />
-					<div class="value">Typescript</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/redux.svg" alt="" />
-					<div class="value">Redux</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/karma.svg" alt="" />
-					<div class="value">Karma</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/jasmine.svg" alt="" />
-					<div class="value">Jasmine</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/webpack.svg" alt="" />
-					<div class="value">Webpack</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/rxjs.svg" alt="" />
-					<div class="value">RxJS</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/java.svg" alt="" />
-					<div class="value">Java</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/python.svg" alt="" />
-					<div class="value">Python</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/php.svg" alt="" />
-					<div class="value">PHP</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/rxjs.svg" alt="" />
-					<div class="value">NodeJS</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/express.svg" alt="" />
-					<div class="value">Express</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/mysql.svg" alt="" />
-					<div class="value">MySQL</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/firebase.svg" alt="" />
-					<div class="value">Firebase</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/prosgresql.svg" alt="" />
-					<div class="value">ProsgresQL</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/mongodb.svg" alt="" />
-					<div class="value">MongoDB</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/git.svg" alt="" />
-					<div class="value">Git</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/jira.svg" alt="" />
-					<div class="value">Jira</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/confluence.svg" alt="" />
-					<div class="value">Confluence</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/team.svg" alt="" />
-					<div class="value">Microsoft team</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/docker.svg" alt="" />
-					<div class="value">Docker</div>
-				</div>
-				<div class="contact-item">
-					<img class="icon" src="assets/icons/technology/postman.svg" alt="" />
-					<div class="value">Postman</div>
-				</div>
-			</div>
+			</ng-container>
 		</div>
 	</div>
 	<div class="right-panel">
@@ -173,150 +64,31 @@
 			<div class="name">Kittiphan Nilprakobkul</div>
 			<div class="description-info">Software Engineer based in Bangkok, Thailand</div>
 		</div>
-		<div class="detail education-section">
-			<div class="rect-wrapper">
-				<div class="inner-header-wrapper">
-					<div class="header">
-						EDUCATION
+		<ng-container *ngFor="let section of resume.mainSection">
+			<div class="main-section">
+				<div class="outter-wrapper">
+					<div class="inner-header-wrapper">
+						<div class="header">
+							{{ section.sectionName }}
+						</div>
 					</div>
-				</div>
-				<div class="inner-wrapper">
-					<div class="becholor content">
-						<div class="top-header">
-							<div class="name">Chulalongkorn University</div>
-							<div class="date-time">Aug 2015 - May 2019</div>
-						</div>
-						<div class="degree">B.Eng. in Computer Engineering </div>
-						<div class="elective-course">
-							<div class="subject"><b>GPAX:</b> 3.06</div>
-							<div class="subject">
-								<b>Elective Courses:</b>
-								Data Science and Engineering,
-								Artificial intelligence,
-								Cloud computing (AWS),
-								Computer Security,
-								MERN Stack,
-								High Tech Entrepreneurship
+					<div class="inner-detail-wrapper">
+						<ng-container *ngFor="let detail of section.details">
+							<div class="detail">
+								<div class="detail-header">
+									<div class="name"> {{ detail.name }} </div>
+									<div class="date-time"> {{ detail.dateTime }} </div>
+								</div>
+								<div class="main-section-description">
+									<ng-container *ngFor="let description of detail.descriptions">
+										<div [ngClass]="description.selector" [innerHTML]="description.label"></div>
+									</ng-container>
+								</div>
 							</div>
-						</div>
+						</ng-container>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="detail experience-section">
-			<div class="rect-wrapper">
-				<div class="inner-header-wrapper">
-					<div class="header">
-						WORK EXPERIENCE
-					</div>
-				</div>
-				<div class="inner-wrapper">
-					<div class="company content">
-						<div class="top-header">
-							<div class="name">Refinitiv Software (Thailand)</div>
-							<div class="date-time">June 2019 - Present</div>
-						</div>
-
-						<div class="elective-course">
-							<div class="label">Descriptions</div>
-							<div class="subject"> Develop new user-facing features</div>
-							<div class="subject"> Build reusable code and libraries for future use </div>
-							<div class="subject"> Ensure the technical feasibility of UI/UX designs</div>
-							<div class="subject"> Optimize application for maximum speed and scalability</div>
-							<div class="subject"> Assure that all user input is validated before submitting to backend
-							</div>
-							<div class="subject"> Collaborate with other team members and stakeholders</div>
-							<div class="label">Tools</div>
-							<div class="subject"> HTML, Css, Javascript</div>
-							<div class="subject"> Angular, Typescript, Rxjs </div>
-							<div class="subject"> Polymer1 </div>
-							<div class="subject"> Vainilla Js</div>
-							<div class="subject"> Typescript </div>
-							<div class="subject"> Web worker</div>
-							<div class="subject"> Karma, Jasmine (Testing tools) </div>
-							<div class="subject"> Git (Version control) </div>
-							<div class="subject"> Jira, Confluence, Microsoft team (Collaboration tools)</div>
-						</div>
-					</div>
-					<div class="company content">
-						<div class="top-header">
-							<div class="name">Bank of Ayudhya (Krungsri)</div>
-							<div class="date-time">June 2018 - July 2018</div>
-						</div>
-						<div class="elective-course">
-							<div class="label">Descriptions</div>
-							<div class="subject"> Developed NDID project</div>
-							<div class="subject"> Implement automated test using Robot Framework</div>
-							<div class="label">Tools</div>
-							<div class="subject"> Go</div>
-							<div class="subject"> Robot Framework</div>
-							<div class="subject"> Tendermint </div>
-							<div class="subject"> Docker </div>
-							<div class="subject"> Postman </div>
-							<div class="subject"> Slack </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="detail skill-section">
-			<div class="rect-wrapper">
-				<div class="inner-header-wrapper">
-					<div class="header">
-						PROJECTS
-					</div>
-				</div>
-				<div class="inner-wrapper">
-					<div class="project content">
-						<div class="top-header">
-							<div class="name">AQI and PM2.5 one-page Generator for Eastern Thailand</div>
-						</div>
-
-						<div class="elective-course">
-							<div class="label">Descriptions</div>
-							<div class="subject"> Displayed AQI and PM2.5 details for Eastern Thailand</div>
-							<div class="subject"> Added the ability to save as the image</div>
-							<div class="subject"> Added the ability to send the image to LINE via LINE Notify</div>
-							<div class="label">Tools</div>
-							<div class="subject"> Angular2+ including scss, typescript, rxjs </div>
-							<div class="subject"> NodeJS including express </div>
-							<div class="subject"> Firebase (using for storing the data)</div>
-							<div class="subject"> Puppeteer (using for generating the screenshot from backend side</div>
-							<div class="subject"> Cronjobs (using for setting interval to generate the image)</div>
-							<div class="subject"> LINE Notify (using for sending the image to LINE) </div>
-						</div>
-					</div>
-					<div class="project content">
-						<div class="top-header">
-							<div class="name">Play OK generator</div>
-						</div>
-						<div class="elective-course">
-							<div class="label">Descriptions</div>
-							<div class="subject"> Convert Thaichess record from English to Thai</div>
-							<div class="label"> Tools</div>
-							<div class="subject"> Vue</div>
-						</div>
-					</div>
-					<div class="project content">
-						<div class="top-header">
-							<div class="name">Book Recommendation System For Library</div>
-						</div>
-						<div class="elective-course">
-							<div class="label">Descriptions</div>
-							<div class="subject"> Using machine learning (Collabolartive Filtering) to train the data
-							</div>
-							<div class="subject"> Grouping the data and Recommend by faculty</div>
-							<div class="subject"> using NLP to recommend by the name of title</div>
-							<div class="label"> Tools</div>
-							<div class="subject"> React </div>
-							<div class="subject"> NodeJS </div>
-							<div class="subject"> MongoDB </div>
-							<div class="subject"> ProsgresQL </div>
-							<div class="subject"> Python (scikit-learn, pandas) </div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		</ng-container>
 	</div>
 </div>

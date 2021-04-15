@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { resume } from './banner.metadata';
 @Component({
 	selector: 'app-banner',
 	templateUrl: './banner.component.html',
@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
+	resume;
 	constructor() { }
 
 	ngOnInit(): void {
+		this.resume = resume;
 	}
 
 	copyToClipboard(event: Event) {
