@@ -162,15 +162,12 @@ export const resume = {
             details: [
                 {
                     name: 'Chulalongkorn University',
+                    subheader: 'B.Eng. in Computer Engineering',
                     dateTime: 'Aug 2015 - May 2019',
                     descriptions: [
                         {
                             selector: 'item',
-                            label: '<b>GPAX:</b> 3.06'
-                        },
-                        {
-                            selector: 'item',
-                            label: '<b>Elective Courses:</b>Data Science and Engineering, Artificial intelligence, Cloud computing (AWS), Computer Security, MERN Stack, High Tech Entrepreneurship'
+                            label: '<b>Elective Courses: </b>Data Science and Engineering, Artificial intelligence, Cloud computing, Computer Security, MERN Stack, High Tech Entrepreneurship'
                         }
                     ]
                 }
@@ -181,6 +178,7 @@ export const resume = {
             details: [
                 {
                     name: 'Refinitiv Software (Thailand)',
+                    subheader: 'Frontend Software Engineer',
                     dateTime: 'June 2019 - Present',
                     descriptions: [
                         {
@@ -255,6 +253,7 @@ export const resume = {
                 },
                 {
                     name: 'Bank of Ayudhya (Krungsri)',
+                    subheader: 'Internship',
                     dateTime: 'June 2018 - July 2018',
                     descriptions: [
                         {
@@ -268,6 +267,10 @@ export const resume = {
                         {
                             selector: 'item',
                             label: 'Implement automated test using Robot Framework'
+                        },
+                        {
+                            selector: 'item',
+                            label: 'Tested API using Postman'
                         },
                         {
                             selector: 'label',
@@ -306,6 +309,7 @@ export const resume = {
             details: [
                 {
                     name: 'AQI and PM2.5 one-page Generator for Eastern Thailand',
+                    link: 'https://asastamp.github.io/AQI-mnre13/',
                     descriptions: [
                         {
                             selector: 'label',
@@ -341,7 +345,7 @@ export const resume = {
                         },
                         {
                             selector: 'item',
-                            label: 'Puppeteer (using for generating the screenshot from backend side'
+                            label: 'Puppeteer (using for generating the screenshot from backend side)'
                         },
                         {
                             selector: 'item',
@@ -354,7 +358,8 @@ export const resume = {
                     ]
                 },
                 {
-                    name: 'Play OK generator',
+                    name: 'Thai Chess Record Converter',
+                    link: 'https://asastamp.github.io/playok-converter/',
                     descriptions: [
                         {
                             selector: 'label',
@@ -362,7 +367,7 @@ export const resume = {
                         },
                         {
                             selector: 'item',
-                            label: 'Convert Thaichess record from English to Thai'
+                            label: 'Convert Thai Chess record from English to Thai'
                         },
                         {
                             selector: 'label',
@@ -383,15 +388,15 @@ export const resume = {
                         },
                         {
                             selector: 'item',
-                            label: 'Using machine learning (Collabolartive Filtering) to train the data'
+                            label: 'Prepare, Cleansing, Analyst data'
                         },
                         {
                             selector: 'item',
-                            label: 'Grouping the data and Recommend by faculty'
+                            label: 'Developed web application which recommend the appropiate books to the diffent students and instructor in Chulalongkorn University'
                         },
                         {
                             selector: 'item',
-                            label: 'using NLP to recommend by the name of title'
+                            label: 'used NLP to recommend by the name of title'
                         },
                         {
                             selector: 'label',
@@ -415,7 +420,7 @@ export const resume = {
                         },
                         {
                             selector: 'item',
-                            label: 'Python (scikit-learn, pandas)'
+                            label: 'Python (pandas, spark)'
                         }
                     ]
                 }

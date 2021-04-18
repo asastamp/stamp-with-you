@@ -6,7 +6,7 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  constructor(private host:ElementRef) {
+  constructor(private host: ElementRef) {
 
   }
   ngOnInit(): void {
@@ -15,9 +15,8 @@ export class HeaderComponent implements OnInit {
 
   ngAfterViewInit() {
     const header: HTMLElement = this.host.nativeElement.querySelector(".container");
-    const offsetHeight = header.offsetHeight;
     window.onscroll = () => {
-      if (window.pageYOffset > offsetHeight) {
+      if (window.pageYOffset > 0) {
         header.classList.add("sticky");
       } else {
         header.classList.remove("sticky");

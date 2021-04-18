@@ -1,4 +1,4 @@
-.container {
+.banner-container {
     display: flex;
 
     margin: 0 150px 100px;
@@ -33,6 +33,10 @@
         }
     }
 
+    @media only screen and (max-width: 1024px) {
+        margin: 0 20px 100px;
+    }
+
     @media only screen and (max-width: 768px) {
         flex-direction: column;
 
@@ -50,15 +54,18 @@
     }
 }
 
+.right-panel {
+    .header {
+        padding: 0 40px;
+    }
+}
+
 .header {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
-    padding: 0 40px;
-}
 
-@media only screen and (max-width: 768px) {
-    .header {
+    @media only screen and (max-width: 768px) {
         font-size: 18px;
     }
 }
@@ -67,6 +74,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 50%);
+    margin-bottom: 20px;
 }
 
 .contact-group {
@@ -116,9 +127,9 @@
     }
 
     > .name {
-        font-size: 48px;
+        font-size: 4.8rem;
         font-weight: 600;
-        margin: 30px;
+        margin: 30px 30px 20px 30px;
     }
 
     > .description-info {
@@ -173,9 +184,13 @@
     text-overflow: ellipsis;
     max-width: 200px;
     padding: 10px;
+}
+
+.clickable {
     cursor: pointer;
     &:hover {
-        background-color: #fd79a8;
+        background-color: #e84393;
+        color: white;
     }
 }
 
@@ -267,7 +282,7 @@ a {
                     }
                 }
 
-                > .degree {
+                > .detail-sub-header {
                     font-size: 16px;
                 }
 
@@ -286,7 +301,7 @@ a {
                     > .item {
                         margin-left: 20px;
                         &::before {
-                            content: "→";
+                            content: "\00a0";
                             background-color: #fd79a8;
                             margin-right: 5px;
                         }
@@ -316,6 +331,10 @@ a {
                         }
                     }
 
+                    > .detail-sub-header {
+                        font-size: 14px;
+                    }
+
                     > .main-section-description {
                         > :is(.label, .item) {
                             font-size: 12px;
@@ -335,7 +354,7 @@ a {
     }
 }
 
-.tools-header {
+.tools-header:not(:first-child) {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -345,4 +364,10 @@ a {
         display: grid;
         grid-template-columns: repeat(2, 30px max-content);
     }
+}
+
+.tools-sub-header {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }

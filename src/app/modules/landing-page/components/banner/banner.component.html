@@ -1,4 +1,4 @@
-<div class="container">
+<div class="banner-container">
 	<div class="left-panel">
 		<div class="profile-img-container">
 			<img class="profile-img" src="assets/profile-img.png" alt="" />
@@ -14,28 +14,28 @@
 			<div class="contact-group">
 				<div class="left-panel-item">
 					<img class="icon" src="assets/icons/contact/phone-call.png" alt="" />
-					<div class="value" (click)="copyToClipboard($event)">(+66)83-585-7240</div>
+					<div class="value clickable" (click)="copyToClipboard($event)">(+66)83-585-7240</div>
 				</div>
 				<div class="left-panel-item">
 					<img class="icon" src="assets/icons/contact/email.png" alt="" />
-					<div class="value" (click)="copyToClipboard($event)">n_kittiphan@hotmail.com</div>
+					<div class="value clickable" (click)="copyToClipboard($event)">n_kittiphan@hotmail.com</div>
 				</div>
 				<div class="left-panel-item">
 					<a target="_blank" href="https://www.facebook.com/magicszombie">
 						<img class="icon" src="assets/icons/contact/facebook.svg" alt="" />
-						<div class="value">Stamp Nilprakobkul</div>
+						<div class="value clickable">Stamp Nilprakobkul</div>
 					</a>
 				</div>
 				<div class="left-panel-item">
 					<a target="_blank" href="https://github.com/asastamp">
 						<img class="icon" src="assets/icons/contact/github.svg" alt="" />
-						<div class="value">github.com/asastamp</div>
+						<div class="value clickable">github.com/asastamp</div>
 					</a>
 				</div>
 				<div class="left-panel-item">
 					<a target="_blank" href="https://www.linkedin.com/in/stamp-nilprakobkul">
 						<img class="icon" src="assets/icons/contact/linkedin.svg" alt="" />
-						<div class="value">www.linkedin.com/in/stamp-nilprakobkul</div>
+						<div class="value clickable">www.linkedin.com/in/stamp-nilprakobkul</div>
 					</a>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 				EXPEREINCED TOOL
 			</div>
 			<ng-container *ngFor="let skill of resume.skills">
-				<div class="tools-header header">
+				<div class="tools-sub-header header">
 					{{ skill.topic }}
 				</div>
 				<div class="contact-group">
@@ -77,8 +77,13 @@
 							<div class="detail">
 								<div class="detail-header">
 									<div class="name"> {{ detail.name }} </div>
-									<div class="date-time"> {{ detail.dateTime }} </div>
+									<div class="date-time" *ngIf="detail.dateTime"> {{ detail.dateTime }} </div>
+									<div class="link" *ngIf="detail.link">
+										<a target="_blank" [href]="detail.link"><img class="icon"
+												src="assets/icons/link.png" /></a>
+									</div>
 								</div>
+								<div class="detail-sub-header"> {{ detail.subheader }} </div>
 								<div class="main-section-description">
 									<ng-container *ngFor="let description of detail.descriptions">
 										<div [ngClass]="description.selector" [innerHTML]="description.label"></div>

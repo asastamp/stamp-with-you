@@ -8,7 +8,6 @@ import { resume } from './banner.metadata';
 export class BannerComponent implements OnInit {
 
 	resume;
-	constructor() { }
 
 	ngOnInit(): void {
 		this.resume = resume;
