@@ -12,32 +12,20 @@
 				CONTACT
 			</div>
 			<div class="contact-group">
-				<!-- <div class="left-panel-item">
-					<img class="icon" src="assets/icons/contact/phone-call.png" alt="" />
-					<div class="value clickable" (click)="copyToClipboard($event)">(+66)83-585-7240</div>
-				</div> -->
-				<div class="left-panel-item">
-					<img class="icon" src="assets/icons/contact/email.png" alt="" />
-					<div class="value clickable" (click)="copyToClipboard($event)">n_kittiphan@hotmail.com</div>
-				</div>
-				<div class="left-panel-item">
-					<a target="_blank" href="https://www.facebook.com/magicszombie">
-						<img class="icon" src="assets/icons/contact/facebook.svg" alt="" />
-						<div class="value clickable">Stamp Nilprakobkul</div>
-					</a>
-				</div>
-				<div class="left-panel-item">
-					<a target="_blank" href="https://github.com/asastamp">
-						<img class="icon" src="assets/icons/contact/github.svg" alt="" />
-						<div class="value clickable">github.com/asastamp</div>
-					</a>
-				</div>
-				<div class="left-panel-item">
-					<a target="_blank" href="https://www.linkedin.com/in/stamp-nilprakobkul">
-						<img class="icon" src="assets/icons/contact/linkedin.svg" alt="" />
-						<div class="value clickable">www.linkedin.com/in/stamp-nilprakobkul</div>
-					</a>
-				</div>
+				<ng-container *ngFor="let contact of resume.contacts">
+					<div class="left-panel-item">
+						<ng-container *ngIf="contact.link">
+							<a target="_blank" [href]="contact.link">
+								<img class="icon" [src]="contact.path" alt="" />
+								<div class="value clickable"> {{ contact.name }} </div>
+							</a>
+						</ng-container>
+						<ng-container *ngIf="!contact.link">
+							<img class="icon" [src]="contact.path" alt="" />
+							<div class="value clickable" (click)="copyToClipboard($event)"> {{ contact.name }} </div>
+						</ng-container>
+					</div>
+				</ng-container>
 			</div>
 		</div>
 		<div class="tools">

@@ -1,6 +1,27 @@
 export const resume = {
 	name: 'Kittiphan Nilprakobkul',
 	description: 'Software Engineer based in Bangkok, Thailand',
+	contacts: [
+		{
+			path: 'assets/icons/contact/email.png',
+			name: 'n_kittiphan@hotmail.com'
+		},
+		{
+			path: 'assets/icons/contact/facebook.svg',
+			name: 'Stamp Nilprakobkul',
+			link: 'https://www.facebook.com/magicszombie'
+		},
+		{
+			path: 'assets/icons/contact/github.svg',
+			name: 'github.com/asastamp',
+			link: 'https://github.com/asastamp'
+		},
+		{
+			path: 'assets/icons/contact/linkedin.svg',
+			name: 'www.linkedin.com/in/stamp-nilprakobkul',
+			link: 'https://www.linkedin.com/in/stamp-nilprakobkul'
+		}
+	],
 	skills: [
 		{
 			topic: 'Frontend Web Development',
