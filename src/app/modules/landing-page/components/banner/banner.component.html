@@ -4,18 +4,18 @@
 			<img class="profile-img" src="assets/profile-img.png" alt="" />
 		</div>
 		<div class="description mobile-description">
-			<div class="name">Kittiphan Nilprakobkul</div>
-			<div class="description-info">Software Engineer based in Bangkok, Thailand</div>
+			<div class="name"> {{ resume.name }} </div>
+			<div class="description-info"> {{ resume.description }} </div>
 		</div>
 		<div class="contact">
 			<div class="contact-header header">
 				CONTACT
 			</div>
 			<div class="contact-group">
-				<div class="left-panel-item">
+				<!-- <div class="left-panel-item">
 					<img class="icon" src="assets/icons/contact/phone-call.png" alt="" />
 					<div class="value clickable" (click)="copyToClipboard($event)">(+66)83-585-7240</div>
-				</div>
+				</div> -->
 				<div class="left-panel-item">
 					<img class="icon" src="assets/icons/contact/email.png" alt="" />
 					<div class="value clickable" (click)="copyToClipboard($event)">n_kittiphan@hotmail.com</div>
@@ -61,8 +61,8 @@
 	</div>
 	<div class="right-panel">
 		<div class="description desktop-description">
-			<div class="name">Kittiphan Nilprakobkul</div>
-			<div class="description-info">Software Engineer based in Bangkok, Thailand</div>
+			<div class="name"> {{ resume.name }}</div>
+			<div class="description-info"> {{ resume.description }}</div>
 		</div>
 		<ng-container *ngFor="let section of resume.mainSection">
 			<div class="main-section">
@@ -80,7 +80,7 @@
 									<div class="date-time" *ngIf="detail.dateTime"> {{ detail.dateTime }} </div>
 									<div class="link" *ngIf="detail.link">
 										<a target="_blank" [href]="detail.link"><img class="icon"
-												src="assets/icons/link.png" /></a>
+												src="assets/icons/link.svg" /></a>
 									</div>
 								</div>
 								<div class="detail-sub-header"> {{ detail.subheader }} </div>
