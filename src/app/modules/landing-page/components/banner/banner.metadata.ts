@@ -214,7 +214,7 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Developed new feautres in some applications for Refinitiv Workspace'
+							label: 'Developed new feutures in some applications for Refinitiv Workspace'
 						},
 						{
 							selector: 'item',
