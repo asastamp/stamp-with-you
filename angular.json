@@ -125,7 +125,6 @@
       }
     }
   },
-  "defaultProject": "stamp-with-you",
   "cli": {
     "analytics": false
   }
