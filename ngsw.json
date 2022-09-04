@@ -1,23 +1,23 @@
 {
   "configVersion": 1,
-  "timestamp": 1645862667511,
+  "timestamp": 1662285268629,
   "index": "./index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main-es2015.b3f5b4b04b36500c569f.js",
-        "./main-es5.b3f5b4b04b36500c569f.js",
+        "./main.54b160adb58372c5.js",
         "./manifest.webmanifest",
-        "./polyfills-es2015.690002c25ea8557bb4b0.js",
-        "./polyfills-es5.9e286f6d9247438cbb02.js",
-        "./runtime-es2015.1eba213af0b233498d9d.js",
-        "./runtime-es5.1eba213af0b233498d9d.js",
-        "./styles.08b4c30cf8dfe52651b0.css"
+        "./polyfills.eed6880bf78c8c04.js",
+        "./runtime.c34d405b9baee634.js",
+        "./styles.0ece4f831776de9b.css"
       ],
       "patterns": []
     },
@@ -25,8 +25,10 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
-        "./assets/.profile-img.png.icloud",
         "./assets/icons/aws-2.svg",
         "./assets/icons/contact/email.png",
         "./assets/icons/contact/facebook.svg",
@@ -73,14 +75,14 @@
         "./assets/icons/technology/vue.svg",
         "./assets/icons/technology/webpack.svg",
         "./assets/logo-mini.png",
-        "./assets/logo.png"
+        "./assets/logo.png",
+        "./assets/profile-img.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "./assets/.profile-img.png.icloud": "ce648369b01bddbb3b9530a84765190ba3f76bd9",
     "./assets/icons/aws-2.svg": "7c7d5c5192ae4de926cc89e7f02ca5da22982505",
     "./assets/icons/contact/email.png": "c6de51bb229039c8b30ce7fe318b9f94e6923aad",
     "./assets/icons/contact/facebook.svg": "00d4d13f1e96832b6f7ee4a239e93bcd701a0168",
@@ -128,16 +130,14 @@
     "./assets/icons/technology/webpack.svg": "54a9afe33c9576ac4171b9ae20ce97a99ebf2f3a",
     "./assets/logo-mini.png": "1cabbfbf559c8ba621a9062eeff359b09fb8f1a6",
     "./assets/logo.png": "9aad5cc0a815e09c05158c90edec2b646a14a02f",
+    "./assets/profile-img.png": "4d89fbc1ed1b2845639b2aa2ac33c328df80e1bf",
     "./favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "./index.html": "cb6f37dad1b413acbd850d48f480e6a0829047cd",
-    "./main-es2015.b3f5b4b04b36500c569f.js": "a5fcbd7431e1a0fc9d35ca5968f29d56346f4c26",
-    "./main-es5.b3f5b4b04b36500c569f.js": "ca50f70a9be166ac098273ea5e7d325dbb7e0c9b",
+    "./index.html": "28e7e947288e770566c32f0ba2a5e8e51cd9b4ef",
+    "./main.54b160adb58372c5.js": "76c884f6ae6a686d7f357a1b1cb169f14d0b92eb",
     "./manifest.webmanifest": "18623d0face47b941f8d636331353aed4c22e208",
-    "./polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "./polyfills-es5.9e286f6d9247438cbb02.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
-    "./runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "./runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "./styles.08b4c30cf8dfe52651b0.css": "720fe2da681e732377ba9e150b8ca013191346fe"
+    "./polyfills.eed6880bf78c8c04.js": "f093fcd9f0c69a60e077213edd6ed2a880f16c4c",
+    "./runtime.c34d405b9baee634.js": "cf0e4fb2447179368033d99d4aa51eb70294f12e",
+    "./styles.0ece4f831776de9b.css": "8a4ec2eb5e4ba7f5645d277c500ad736d747a21a"
   },
   "navigationUrls": [
     {
@@ -156,5 +156,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
