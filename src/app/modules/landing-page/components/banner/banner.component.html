@@ -1,37 +1,35 @@
 <div class="banner-container">
 	<div class="left-panel">
 		<div class="profile-img-container">
-			<img class="profile-img" src="assets/profile-img.png" alt="" />
+			<img class="profile-img" src="assets/profile-img-2.png" alt="" />
 		</div>
 		<div class="description mobile-description">
-			<div class="name"> {{ resume.name }} </div>
-			<div class="description-info"> {{ resume.description }} </div>
+			<div class="name">{{ resume.name }}</div>
+			<div class="description-info">{{ resume.description }}</div>
 		</div>
 		<div class="contact">
-			<div class="contact-header header">
-				CONTACT
-			</div>
+			<div class="contact-header header">CONTACT</div>
 			<div class="contact-group">
 				<ng-container *ngFor="let contact of resume.contacts">
 					<div class="left-panel-item">
 						<ng-container *ngIf="contact.link">
 							<a target="_blank" [href]="contact.link">
 								<img class="icon" [src]="contact.path" alt="" />
-								<div class="value clickable"> {{ contact.name }} </div>
+								<div class="value clickable">{{ contact.name }}</div>
 							</a>
 						</ng-container>
 						<ng-container *ngIf="!contact.link">
 							<img class="icon" [src]="contact.path" alt="" />
-							<div class="value clickable" (click)="copyToClipboard($event)"> {{ contact.name }} </div>
+							<div class="value clickable" (click)="copyToClipboard($event)">
+								{{ contact.name }}
+							</div>
 						</ng-container>
 					</div>
 				</ng-container>
 			</div>
 		</div>
 		<div class="tools">
-			<div class="tools-header header">
-				EXPEREINCED TOOL
-			</div>
+			<div class="tools-header header">EXPEREINCED TOOL</div>
 			<ng-container *ngFor="let skill of resume.skills">
 				<div class="tools-sub-header header">
 					{{ skill.topic }}
@@ -49,8 +47,8 @@
 	</div>
 	<div class="right-panel">
 		<div class="description desktop-description">
-			<div class="name"> {{ resume.name }}</div>
-			<div class="description-info"> {{ resume.description }}</div>
+			<div class="name">{{ resume.name }}</div>
+			<div class="description-info">{{ resume.description }}</div>
 		</div>
 		<ng-container *ngFor="let section of resume.mainSection">
 			<div class="main-section">
@@ -64,17 +62,23 @@
 						<ng-container *ngFor="let detail of section.details">
 							<div class="detail">
 								<div class="detail-header">
-									<div class="name"> {{ detail.name }} </div>
-									<div class="date-time" *ngIf="detail.dateTime"> {{ detail.dateTime }} </div>
+									<div class="name">{{ detail.name }}</div>
+									<div class="date-time" *ngIf="detail.dateTime">
+										{{ detail.dateTime }}
+									</div>
 									<div class="link" *ngIf="detail.link">
-										<a target="_blank" [href]="detail.link"><img class="icon"
-												src="assets/icons/link.svg" /></a>
+										<a target="_blank" [href]="detail.link"
+											><img class="icon" src="assets/icons/link.svg"
+										/></a>
 									</div>
 								</div>
-								<div class="detail-sub-header"> {{ detail.subheader }} </div>
+								<div class="detail-sub-header">{{ detail.subheader }}</div>
 								<div class="main-section-description">
 									<ng-container *ngFor="let description of detail.descriptions">
-										<div [ngClass]="description.selector" [innerHTML]="description.label"></div>
+										<div
+											[ngClass]="description.selector"
+											[innerHTML]="description.label"
+										></div>
 									</ng-container>
 								</div>
 							</div>
