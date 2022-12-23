@@ -4,23 +4,23 @@ export const resume = {
 	contacts: [
 		{
 			path: 'assets/icons/contact/email.png',
-			name: 'n_kittiphan@hotmail.com'
+			name: 'n_kittiphan@hotmail.com',
 		},
 		{
 			path: 'assets/icons/contact/facebook.svg',
 			name: 'Stamp Nilprakobkul',
-			link: 'https://www.facebook.com/magicszombie'
+			link: 'https://www.facebook.com/magicszombie',
 		},
 		{
 			path: 'assets/icons/contact/github.svg',
 			name: 'github.com/asastamp',
-			link: 'https://github.com/asastamp'
+			link: 'https://github.com/asastamp',
 		},
 		{
 			path: 'assets/icons/contact/linkedin.svg',
 			name: 'www.linkedin.com/in/stamp-nilprakobkul',
-			link: 'https://www.linkedin.com/in/stamp-nilprakobkul'
-		}
+			link: 'https://www.linkedin.com/in/stamp-nilprakobkul',
+		},
 	],
 	skills: [
 		{
@@ -28,160 +28,160 @@ export const resume = {
 			skill: [
 				{
 					path: 'assets/icons/technology/html.svg',
-					name: 'HTML'
+					name: 'HTML',
 				},
 				{
 					path: 'assets/icons/technology/css.svg',
-					name: 'CSS'
+					name: 'CSS',
 				},
 				{
 					path: 'assets/icons/technology/js.svg',
-					name: 'Javascript'
+					name: 'Javascript',
 				},
 				{
 					path: 'assets/icons/technology/angular.png',
-					name: 'Angular2+'
+					name: 'Angular2+',
 				},
 				{
 					path: 'assets/icons/technology/react.svg',
-					name: 'React'
+					name: 'React',
 				},
 				{
 					path: 'assets/icons/technology/vue.svg',
-					name: 'Vue'
+					name: 'Vue',
 				},
 				{
 					path: 'assets/icons/technology/polymer.svg',
-					name: 'Polymer1'
+					name: 'Polymer1',
 				},
 				{
 					path: 'assets/icons/technology/less.svg',
-					name: 'Less'
+					name: 'Less',
 				},
 				{
 					path: 'assets/icons/technology/scss.svg',
-					name: 'Sass / Scss'
+					name: 'Sass / Scss',
 				},
 				{
 					path: 'assets/icons/technology/typescript.svg',
-					name: 'Typescript'
+					name: 'Typescript',
 				},
 				{
 					path: 'assets/icons/technology/redux.svg',
-					name: 'Redux'
+					name: 'Redux',
 				},
 				{
 					path: 'assets/icons/technology/rxjs.svg',
-					name: 'RxJS'
-				}
-			]
+					name: 'RxJS',
+				},
+			],
 		},
 		{
 			topic: 'Backend Web Development',
 			skill: [
 				{
 					path: 'assets/icons/technology/php.svg',
-					name: 'PHP'
+					name: 'PHP',
 				},
 				{
 					path: 'assets/icons/technology/nodejs.svg',
-					name: 'NodeJS'
+					name: 'NodeJS',
 				},
 				{
 					path: 'assets/icons/technology/express.svg',
-					name: 'Express'
-				}
-			]
+					name: 'Express',
+				},
+			],
 		},
 		{
 			topic: 'DB Web Development',
 			skill: [
 				{
 					path: 'assets/icons/technology/mysql.svg',
-					name: 'MySQL'
+					name: 'MySQL',
 				},
 				{
 					path: 'assets/icons/technology/prosgresql.svg',
-					name: 'ProsgresQL'
+					name: 'ProsgresQL',
 				},
 				{
 					path: 'assets/icons/technology/mongodb.svg',
-					name: 'MongoDB'
+					name: 'MongoDB',
 				},
 				{
 					path: 'assets/icons/technology/firebase.svg',
-					name: 'Firebase'
-				}
-			]
+					name: 'Firebase',
+				},
+			],
 		},
 		{
 			topic: 'Testing Tools',
 			skill: [
 				{
 					path: 'assets/icons/technology/karma.svg',
-					name: 'Karma'
+					name: 'Karma',
 				},
 				{
 					path: 'assets/icons/technology/jasmine.svg',
-					name: 'Jasmine'
-				}
-			]
+					name: 'Jasmine',
+				},
+			],
 		},
 		{
 			topic: 'Utilization Tools',
 			skill: [
 				{
 					path: 'assets/icons/technology/webpack.svg',
-					name: 'Webpack'
+					name: 'Webpack',
 				},
 				{
 					path: 'assets/icons/technology/docker.svg',
-					name: 'Docker'
+					name: 'Docker',
 				},
 				{
 					path: 'assets/icons/technology/postman.svg',
-					name: 'Postman'
-				}
-			]
+					name: 'Postman',
+				},
+			],
 		},
 		{
 			topic: 'Other Programming Language',
 			skill: [
 				{
 					path: 'assets/icons/technology/java.svg',
-					name: 'Java'
+					name: 'Java',
 				},
 				{
 					path: 'assets/icons/technology/python.svg',
-					name: 'Python'
-				}
-			]
+					name: 'Python',
+				},
+			],
 		},
 		{
 			topic: 'Collaboration Tools',
 			skill: [
 				{
 					path: 'assets/icons/technology/git.svg',
-					name: 'Git'
+					name: 'Git',
 				},
 				{
 					path: 'assets/icons/technology/confluence.svg',
-					name: 'Confluence'
+					name: 'Confluence',
 				},
 				{
 					path: 'assets/icons/technology/jira.svg',
-					name: 'Jira'
+					name: 'Jira',
 				},
 				{
 					path: 'assets/icons/technology/team.svg',
-					name: 'Microsoft team'
+					name: 'Microsoft team',
 				},
 				{
 					path: 'assets/icons/technology/slack.svg',
-					name: 'Slack'
-				}
-			]
-		}
+					name: 'Slack',
+				},
+			],
+		},
 	],
 	mainSection: [
 		{
@@ -194,89 +194,173 @@ export const resume = {
 					descriptions: [
 						{
 							selector: 'item',
-							label: '<b>Elective Courses: </b>Data Science and Engineering, Artificial intelligence, Cloud computing, Computer Security, MERN Stack, High Tech Entrepreneurship'
-						}
-					]
-				}
-			]
+							label:
+								'<b>Elective Courses: </b>Data Science and Engineering, Artificial intelligence, Cloud computing, Computer Security, MERN Stack, High Tech Entrepreneurship',
+						},
+					],
+				},
+			],
 		},
 		{
 			sectionName: 'WORK EXPERIENCE',
 			details: [
 				{
-					name: 'Refinitiv Software (Thailand)',
-					subheader: 'Frontend Software Engineer',
-					dateTime: 'June 2019 - Present',
+					name: 'Tencent (Thailand) Company Limited',
+					subheader: 'Fullstack Software Engineer (Sanook IT)',
+					dateTime: 'Aug 2020 - Present',
 					descriptions: [
 						{
 							selector: 'label',
-							label: 'Descriptions'
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Developed new feutures in some applications for Refinitiv Workspace'
+							label:
+								'Developed frontend feature using next-js e.g. sanook video, sanook feedback',
 						},
 						{
 							selector: 'item',
-							label: 'Developed reusable code for future use'
+							label:
+								'Developed backend feature using nest-js e.g. sanook video, sanook dictionary',
+						},
+						// {
+						// 	selector: 'item',
+						// 	label: 'Update config webserver e.g.nginx',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Setup ci/cd via gitlab ci',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Collaborated with infra team',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Monitor website with Google analytic, Newrelic',
+						// },
+						// {
+						// 	selector: 'label',
+						// 	label: 'Tools',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'NextJS',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Graphql',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'NestJS',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Solr',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Nginx (Lua)',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Web worker',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Karma, Jasmine (Testing tools)',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Git (Version control)',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Jira, Wiki (Collaboration tools)',
+						// },
+						// {
+						// 	selector: 'item',
+						// 	label: 'Google Analytic, Google Tag Manager, Google optimize',
+						// },
+					],
+				},
+				{
+					name: 'Refinitiv Software (Thailand)',
+					subheader: 'Frontend Software Engineer',
+					dateTime: 'June 2019 - July 2021',
+					descriptions: [
+						{
+							selector: 'label',
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Ensure the technical feasibility of the requirements'
+							label:
+								'Developed new feutures in some applications for Refinitiv Workspace',
 						},
 						{
 							selector: 'item',
-							label: 'Optimize application for the best performance'
+							label: 'Developed reusable code for future use',
 						},
 						{
 							selector: 'item',
-							label: 'Collaborated with UX/UI Designer, BA, PM and stakeholders and stakeholders'
+							label: 'Ensure the technical feasibility of the requirements',
 						},
 						{
 							selector: 'item',
-							label: 'Worked within an agile workflow'
+							label: 'Optimize application for the best performance',
+						},
+						{
+							selector: 'item',
+							label:
+								'Collaborated with UX/UI Designer, BA, PM and stakeholders and stakeholders',
+						},
+						{
+							selector: 'item',
+							label: 'Worked within an agile workflow',
 						},
 						{
 							selector: 'label',
-							label: 'Tools'
+							label: 'Tools',
 						},
 						{
 							selector: 'item',
-							label: 'HTML, Css, Javascript'
+							label: 'HTML, Css, Javascript',
 						},
 						{
 							selector: 'item',
-							label: 'Angular, Typescript, Rxjs'
+							label: 'Angular, Typescript, Rxjs',
 						},
 						{
 							selector: 'item',
-							label: 'Polymer1'
+							label: 'Polymer1',
 						},
 						{
 							selector: 'item',
-							label: 'Vanilla Js'
+							label: 'Vanilla Js',
 						},
 						{
 							selector: 'item',
-							label: 'Typescript'
+							label: 'Typescript',
 						},
 						{
 							selector: 'item',
-							label: 'Web worker'
+							label: 'Web worker',
 						},
 						{
 							selector: 'item',
-							label: 'Karma, Jasmine (Testing tools)'
+							label: 'Karma, Jasmine (Testing tools)',
 						},
 						{
 							selector: 'item',
-							label: 'Git (Version control)'
+							label: 'Git (Version control)',
 						},
 						{
 							selector: 'item',
-							label: 'Jira, Confluence, Microsoft team (Collaboration tools)'
-						}
-					]
+							label: 'Jira, Confluence, Microsoft team (Collaboration tools)',
+						},
+					],
 				},
 				{
 					name: 'Bank of Ayudhya (Krungsri)',
@@ -285,51 +369,51 @@ export const resume = {
 					descriptions: [
 						{
 							selector: 'label',
-							label: 'Descriptions'
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Associated National Digital ID Project'
+							label: 'Associated National Digital ID Project',
 						},
 						{
 							selector: 'item',
-							label: 'Implement Test Automation using Robot Framework'
+							label: 'Implement Test Automation using Robot Framework',
 						},
 						{
 							selector: 'item',
-							label: 'API Testing using Postman'
+							label: 'API Testing using Postman',
 						},
 						{
 							selector: 'label',
-							label: 'Tools'
+							label: 'Tools',
 						},
 						{
 							selector: 'item',
-							label: 'Tendermint'
+							label: 'Tendermint',
 						},
 						{
 							selector: 'item',
-							label: 'Robot Framework'
+							label: 'Robot Framework',
 						},
 						{
 							selector: 'item',
-							label: 'Go'
+							label: 'Go',
 						},
 						{
 							selector: 'item',
-							label: 'Docker'
+							label: 'Docker',
 						},
 						{
 							selector: 'item',
-							label: 'Postman'
+							label: 'Postman',
 						},
 						{
 							selector: 'item',
-							label: 'Slack'
-						}
-					]
-				}
-			]
+							label: 'Slack',
+						},
+					],
+				},
+			],
 		},
 		{
 			sectionName: 'PROJECTS',
@@ -340,49 +424,50 @@ export const resume = {
 					descriptions: [
 						{
 							selector: 'label',
-							label: 'Descriptions'
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Displayed AQI and PM2.5 details for Eastern Thailand'
+							label: 'Displayed AQI and PM2.5 details for Eastern Thailand',
 						},
 						{
 							selector: 'item',
-							label: 'Added the ability to save as the image'
+							label: 'Added the ability to save as the image',
 						},
 						{
 							selector: 'item',
-							label: 'Added the ability to send the image to LINE via LINE Notify'
+							label: 'Added the ability to send the image to LINE via LINE Notify',
 						},
 						{
 							selector: 'label',
-							label: 'Tools'
+							label: 'Tools',
 						},
 						{
 							selector: 'item',
-							label: 'Angular2+ including scss, typescript, rxjs'
+							label: 'Angular2+ including scss, typescript, rxjs',
 						},
 						{
 							selector: 'item',
-							label: 'NodeJS including express'
+							label: 'NodeJS including express',
 						},
 						{
 							selector: 'item',
-							label: 'Firebase (using for storing the data)'
+							label: 'Firebase (using for storing the data)',
 						},
 						{
 							selector: 'item',
-							label: 'Puppeteer (using for generating the screenshot from backend side)'
+							label:
+								'Puppeteer (using for generating the screenshot from backend side)',
 						},
 						{
 							selector: 'item',
-							label: 'Cronjobs (using for setting interval to generate the image)'
+							label: 'Cronjobs (using for setting interval to generate the image)',
 						},
 						{
 							selector: 'item',
-							label: 'LINE Notify (using for sending the image to LINE)'
-						}
-					]
+							label: 'LINE Notify (using for sending the image to LINE)',
+						},
+					],
 				},
 				{
 					name: 'Thai Chess Record Converter',
@@ -390,109 +475,112 @@ export const resume = {
 					descriptions: [
 						{
 							selector: 'label',
-							label: 'Descriptions'
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Convert Thai Chess record from English to Thai'
+							label: 'Convert Thai Chess record from English to Thai',
 						},
 						{
 							selector: 'label',
-							label: 'Tools'
+							label: 'Tools',
 						},
 						{
 							selector: 'item',
-							label: 'Vue'
-						}
-					]
+							label: 'Vue',
+						},
+					],
 				},
 				{
 					name: 'Book Recommendation System For Library',
 					descriptions: [
 						{
 							selector: 'label',
-							label: 'Descriptions'
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Recommend the appropiated books which is grouped by faculty'
+							label: 'Recommend the appropiated books which is grouped by faculty',
 						},
 						{
 							selector: 'item',
-							label: 'Recommend the appropiated books by the title of the book using NLP'
+							label:
+								'Recommend the appropiated books by the title of the book using NLP',
 						},
 						{
 							selector: 'item',
-							label: 'Recommend the personalized books by the borrowing history'
+							label: 'Recommend the personalized books by the borrowing history',
 						},
 						{
 							selector: 'item',
-							label: 'Data Preparation, Data Cleansing, Data Analysis with Python Library'
+							label:
+								'Data Preparation, Data Cleansing, Data Analysis with Python Library',
 						},
 						{
 							selector: 'item',
-							label: 'Developed web application to display recommended books'
+							label: 'Developed web application to display recommended books',
 						},
 						{
 							selector: 'label',
-							label: 'Tools'
+							label: 'Tools',
 						},
 						{
 							selector: 'item',
-							label: 'Python Library (Psycopg2, Pandas, PythaiNLP, Scikit-learn, Pyspark)'
+							label:
+								'Python Library (Psycopg2, Pandas, PythaiNLP, Scikit-learn, Pyspark)',
 						},
 						{
 							selector: 'item',
-							label: 'React'
+							label: 'React',
 						},
 						{
 							selector: 'item',
-							label: 'NodeJS / Express'
+							label: 'NodeJS / Express',
 						},
 						{
 							selector: 'item',
-							label: 'MongoDB'
+							label: 'MongoDB',
 						},
 						{
 							selector: 'item',
-							label: 'ProsgresQL'
-						}
-					]
+							label: 'ProsgresQL',
+						},
+					],
 				},
 				{
 					name: 'GenEd LINE Chatbot',
 					descriptions: [
 						{
 							selector: 'label',
-							label: 'Descriptions'
+							label: 'Descriptions',
 						},
 						{
 							selector: 'item',
-							label: 'Recommend GenEd Chula with LINE Chatbot'
+							label: 'Recommend GenEd Chula with LINE Chatbot',
 						},
 						{
 							selector: 'item',
-							label: 'Data scraping with Python Library'
+							label: 'Data scraping with Python Library',
 						},
 						{
 							selector: 'label',
-							label: 'Tools'
+							label: 'Tools',
 						},
 						{
 							selector: 'item',
-							label: 'Python Library (Beautyful Soup, Pandas)'
+							label: 'Python Library (Beautyful Soup, Pandas)',
 						},
 						{
 							selector: 'item',
-							label: 'Dialogflow'
+							label: 'Dialogflow',
 						},
 						{
 							selector: 'item',
-							label: 'LINE Messaging API'
-						}
-					]
-				}
-			]
-		}
-	]
-}
+							label: 'LINE Messaging API',
+						},
+					],
+				},
+			],
+		},
+	],
+};
