@@ -1,6 +1,6 @@
 export const resume = {
 	name: 'Kittiphan Nilprakobkul',
-	description: 'Software Engineer based in Bangkok, Thailand',
+	description: 'Full Stack Software Engineer based in Bangkok, Thailand',
 	contacts: [
 		{
 			path: 'assets/icons/contact/email.png',
@@ -132,7 +132,7 @@ export const resume = {
 			skill: [
 				{
 					path: 'assets/icons/technology/nginx.png',
-					name: 'Nginx',
+					name: 'NGINX',
 				},
 				{
 					path: 'assets/icons/technology/lua.png',
@@ -236,17 +236,20 @@ export const resume = {
 			details: [
 				{
 					name: 'Tencent (Thailand) Company Limited',
-					subheader: 'Fullstack Software Engineer (IT Sanook)',
+					subheader: 'Full Stack Software Engineer (IT Sanook)',
 					dateTime: 'Aug 2021 - Present',
 					descriptions: [
 						{
 							selector: 'label',
 							label: 'Descriptions',
 						},
-
 						{
 							selector: 'item',
 							label: 'Developed website sanook.com both frontend and backend',
+						},
+						{
+							selector: 'item',
+							label: 'Maintained NGINX reverse proxy',
 						},
 						{
 							selector: 'item',
@@ -255,15 +258,17 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Improved core web vital',
+							label: 'Improved Core Web Vitals',
+						},
+
+						{
+							selector: 'item',
+							label: 'Setup CI/CD',
 						},
 						{
 							selector: 'item',
-							label: 'Maintained nginx proxy',
-						},
-						{
-							selector: 'item',
-							label: 'Setup ci/cd',
+							label:
+								'Monitored web with Newrelic, GKE, Google analytic, and Google search console',
 						},
 						{
 							selector: 'item',
@@ -272,12 +277,7 @@ export const resume = {
 						{
 							selector: 'item',
 							label:
-								'Collaborated with Infra / PM / Designer / Tester / SEO / Ads team',
-						},
-						{
-							selector: 'item',
-							label:
-								'Monitored website with newrelic, GKE, Google analytic, Google search console',
+								'Collaborated with team Infra / PM / Designer / Tester / SEO / Ads',
 						},
 						{
 							selector: 'label',
@@ -305,7 +305,7 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Nginx (Lua)',
+							label: 'NGINX + Lua',
 						},
 						{
 							selector: 'item',
@@ -313,7 +313,7 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Gitlab (Version control & ci/cd)',
+							label: 'Gitlab (Version Control & CI/CD)',
 						},
 						{
 							selector: 'item',
@@ -333,13 +333,13 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Jira, Wiki (Collaboration tools)',
+							label: 'Jira, Wiki (Collaboration)',
 						},
 					],
 				},
 				{
 					name: 'Refinitiv Software (Thailand) Company Limited',
-					subheader: 'Frontend Software Engineer',
+					subheader: 'Front End Software Engineer',
 					dateTime: 'June 2019 - July 2021',
 					descriptions: [
 						{
@@ -348,12 +348,7 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label:
-								'Developed new feutures in some applications for Refinitiv Workspace',
-						},
-						{
-							selector: 'item',
-							label: 'Developed reusable code for future use',
+							label: 'Developed frontend features for Refinitiv Workspace platform',
 						},
 						{
 							selector: 'item',
@@ -361,15 +356,15 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Optimize application for the best performance',
+							label: 'Optimized web application for the best performance',
 						},
 						{
 							selector: 'item',
-							label: 'Collaborated with UX/UI Designer, BA, PM, and stakeholders',
+							label: 'Collaborated with UX/UI Designer / QA / PM',
 						},
 						{
 							selector: 'item',
-							label: 'Worked within an agile workflow',
+							label: 'Work in an agile team and English environment',
 						},
 						{
 							selector: 'label',
@@ -377,11 +372,11 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'HTML, Css, Javascript',
+							label: 'HTML, CSS, Javascript',
 						},
 						{
 							selector: 'item',
-							label: 'Angular, Typescript, Rxjs',
+							label: 'Angular, Typescript, RxJS',
 						},
 						{
 							selector: 'item',
@@ -389,29 +384,29 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Vanilla Js',
+							label: 'Vanilla JS',
 						},
 						{
 							selector: 'item',
-							label: 'Web worker',
+							label: 'Web Workers',
 						},
 						{
 							selector: 'item',
-							label: 'Karma, Jasmine (Testing tools)',
+							label: 'Karma, Jasmine (Testing)',
 						},
 						{
 							selector: 'item',
-							label: 'Git (Version control)',
+							label: 'Git (Version Control)',
 						},
 						{
 							selector: 'item',
-							label: 'Jira, Confluence, Microsoft team (Collaboration tools)',
+							label: 'Jira, Confluence, Microsoft team (Collaboration)',
 						},
 					],
 				},
 				{
 					name: 'Bank of Ayudhya (Krungsri)',
-					subheader: 'Krungsri Bright Start : Internship Program',
+					subheader: 'Intern (Krungsri Bright Start)',
 					dateTime: 'June 2018 - July 2018',
 					descriptions: [
 						{
@@ -420,15 +415,15 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Associated National Digital ID Project',
+							label: 'Participated in National Digital ID project',
 						},
 						{
 							selector: 'item',
-							label: 'Implement Test Automation using Robot Framework',
+							label: 'Implement automated testing using Robot Framework',
 						},
 						{
 							selector: 'item',
-							label: 'API Testing using Postman',
+							label: 'Tested API using Postman',
 						},
 						{
 							selector: 'label',
@@ -483,7 +478,7 @@ export const resume = {
 			sectionName: 'PROJECTS',
 			details: [
 				{
-					name: 'AQI and PM2.5 one-page Generator for Eastern Thailand',
+					name: 'One Page Summary Generator for AQI and PM2.5',
 					link: 'https://asastamp.github.io/AQI-mnre13/',
 					descriptions: [
 						{
@@ -492,15 +487,16 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Displayed AQI and PM2.5 details for Eastern Thailand',
+							label:
+								'Visualized and Generated AQI and PM2.5 information in Eastern Thailand',
 						},
 						{
 							selector: 'item',
-							label: 'Added the ability to save as the image',
+							label: 'Implemented feature save one page as an image',
 						},
 						{
 							selector: 'item',
-							label: 'Added the ability to send the image to LINE via LINE Notify',
+							label: 'Implemented feature send the image to LINE via LINE Notify',
 						},
 						{
 							selector: 'label',
