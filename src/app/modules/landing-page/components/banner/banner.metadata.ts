@@ -24,7 +24,7 @@ export const resume = {
 	],
 	skills: [
 		{
-			topic: 'Frontend Web Development',
+			topic: 'Frontend',
 			skill: [
 				{
 					path: 'assets/icons/technology/html.svg',
@@ -39,24 +39,16 @@ export const resume = {
 					name: 'Javascript',
 				},
 				{
-					path: 'assets/icons/technology/angular.png',
-					name: 'Angular2+',
-				},
-				{
 					path: 'assets/icons/technology/react.svg',
 					name: 'React',
 				},
 				{
-					path: 'assets/icons/technology/vue.svg',
-					name: 'Vue',
+					path: 'assets/icons/technology/next.svg',
+					name: 'Next.js',
 				},
 				{
-					path: 'assets/icons/technology/polymer.svg',
-					name: 'Polymer1',
-				},
-				{
-					path: 'assets/icons/technology/less.svg',
-					name: 'Less',
+					path: 'assets/icons/technology/angular.png',
+					name: 'Angular 2+',
 				},
 				{
 					path: 'assets/icons/technology/scss.svg',
@@ -77,11 +69,11 @@ export const resume = {
 			],
 		},
 		{
-			topic: 'Backend Web Development',
+			topic: 'Backend',
 			skill: [
 				{
-					path: 'assets/icons/technology/php.svg',
-					name: 'PHP',
+					path: 'assets/icons/technology/nest.svg',
+					name: 'NestJS',
 				},
 				{
 					path: 'assets/icons/technology/nodejs.svg',
@@ -94,7 +86,20 @@ export const resume = {
 			],
 		},
 		{
-			topic: 'DB Web Development',
+			topic: 'Query Language',
+			skill: [
+				{
+					path: 'assets/icons/technology/graph.svg',
+					name: 'GraphQL',
+				},
+				{
+					path: 'assets/icons/technology/sql.png',
+					name: 'SQL',
+				},
+			],
+		},
+		{
+			topic: 'Database',
 			skill: [
 				{
 					path: 'assets/icons/technology/mysql.svg',
@@ -109,13 +114,39 @@ export const resume = {
 					name: 'MongoDB',
 				},
 				{
+					path: 'assets/icons/technology/redis.svg',
+					name: 'Redis',
+				},
+				{
+					path: 'assets/icons/technology/memcached.svg',
+					name: 'Memcached',
+				},
+				{
 					path: 'assets/icons/technology/firebase.svg',
 					name: 'Firebase',
 				},
 			],
 		},
+
 		{
-			topic: 'Testing Tools',
+			topic: 'DevOps',
+			skill: [
+				{
+					path: 'assets/icons/technology/docker.svg',
+					name: 'Docker',
+				},
+				{
+					path: 'assets/icons/technology/kube.png',
+					name: 'Kubernetes',
+				},
+				{
+					path: 'assets/icons/technology/gitlab.png',
+					name: 'GitLab CI',
+				},
+			],
+		},
+		{
+			topic: 'Testing',
 			skill: [
 				{
 					path: 'assets/icons/technology/karma.svg',
@@ -128,37 +159,24 @@ export const resume = {
 			],
 		},
 		{
-			topic: 'Utilization Tools',
+			topic: 'Monitoring',
 			skill: [
 				{
-					path: 'assets/icons/technology/webpack.svg',
-					name: 'Webpack',
+					path: 'assets/icons/technology/newrelic.png',
+					name: 'Newrelic',
 				},
 				{
-					path: 'assets/icons/technology/docker.svg',
-					name: 'Docker',
+					path: 'assets/icons/technology/gke.png',
+					name: 'GKE',
 				},
 				{
-					path: 'assets/icons/technology/postman.svg',
-					name: 'Postman',
+					path: 'assets/icons/technology/ga.png',
+					name: 'Google Analytic',
 				},
 			],
 		},
 		{
-			topic: 'Other Programming Language',
-			skill: [
-				{
-					path: 'assets/icons/technology/java.svg',
-					name: 'Java',
-				},
-				{
-					path: 'assets/icons/technology/python.svg',
-					name: 'Python',
-				},
-			],
-		},
-		{
-			topic: 'Collaboration Tools',
+			topic: 'Collaboration',
 			skill: [
 				{
 					path: 'assets/icons/technology/git.svg',
@@ -167,6 +185,10 @@ export const resume = {
 				{
 					path: 'assets/icons/technology/confluence.svg',
 					name: 'Confluence',
+				},
+				{
+					path: 'assets/icons/technology/postman.svg',
+					name: 'Postman',
 				},
 				{
 					path: 'assets/icons/technology/jira.svg',
@@ -182,111 +204,129 @@ export const resume = {
 				},
 			],
 		},
-	],
-	mainSection: [
 		{
-			sectionName: 'EDUCATION',
-			details: [
+			topic: 'Others',
+			skill: [
 				{
-					name: 'Chulalongkorn University',
-					subheader: 'B.Eng. in Computer Engineering',
-					dateTime: 'Aug 2015 - May 2019',
-					descriptions: [
-						{
-							selector: 'item',
-							label:
-								'<b>Elective Courses: </b>Data Science and Engineering, Artificial intelligence, Cloud computing, Computer Security, MERN Stack, High Tech Entrepreneurship',
-						},
-					],
+					path: 'assets/icons/technology/solr.png',
+					name: 'Solr',
+				},
+				{
+					path: 'assets/icons/technology/webpack.svg',
+					name: 'Webpack',
 				},
 			],
 		},
+	],
+	mainSection: [
 		{
 			sectionName: 'WORK EXPERIENCE',
 			details: [
 				{
 					name: 'Tencent (Thailand) Company Limited',
-					subheader: 'Fullstack Software Engineer (Sanook IT)',
+					subheader: 'Fullstack Software Engineer (IT Sanook)',
 					dateTime: 'Aug 2020 - Present',
 					descriptions: [
 						{
 							selector: 'label',
 							label: 'Descriptions',
 						},
+
 						{
 							selector: 'item',
-							label:
-								'Developed frontend feature using next-js e.g. sanook video, sanook feedback',
+							label: 'Developed website sanook.com both frontend and backend',
 						},
 						{
 							selector: 'item',
 							label:
-								'Developed backend feature using nest-js e.g. sanook video, sanook dictionary',
+								'Optimized web performance to support high traffic e.g. lotto day',
 						},
-						// {
-						// 	selector: 'item',
-						// 	label: 'Update config webserver e.g.nginx',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Setup ci/cd via gitlab ci',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Collaborated with infra team',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Monitor website with Google analytic, Newrelic',
-						// },
-						// {
-						// 	selector: 'label',
-						// 	label: 'Tools',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'NextJS',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Graphql',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'NestJS',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Solr',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Nginx (Lua)',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Web worker',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Karma, Jasmine (Testing tools)',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Git (Version control)',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Jira, Wiki (Collaboration tools)',
-						// },
-						// {
-						// 	selector: 'item',
-						// 	label: 'Google Analytic, Google Tag Manager, Google optimize',
-						// },
+						{
+							selector: 'item',
+							label: 'Improved core web vital',
+						},
+						{
+							selector: 'item',
+							label: 'Maintained nginx proxy',
+						},
+						{
+							selector: 'item',
+							label: 'Setup ci/cd',
+						},
+						{
+							selector: 'item',
+							label: 'Planned and prioritized tasks to meet the timeline',
+						},
+						{
+							selector: 'item',
+							label:
+								'Collaborated with Infra / PM / Designer / Tester / SEO / Ads team',
+						},
+						{
+							selector: 'item',
+							label:
+								'Monitored website with newrelic, GKE, Google analytic, Google search console',
+						},
+						{
+							selector: 'label',
+							label: 'Tools',
+						},
+						{
+							selector: 'item',
+							label: 'NextJS',
+						},
+						{
+							selector: 'item',
+							label: 'NestJS',
+						},
+						{
+							selector: 'item',
+							label: 'Graphql',
+						},
+						{
+							selector: 'item',
+							label: 'MySQL / MongoDB',
+						},
+						{
+							selector: 'item',
+							label: 'Memcached / Redis',
+						},
+						{
+							selector: 'item',
+							label: 'Nginx (Lua)',
+						},
+						{
+							selector: 'item',
+							label: 'Solr',
+						},
+						{
+							selector: 'item',
+							label: 'Gitlab (Version control & ci/cd)',
+						},
+						{
+							selector: 'item',
+							label: 'Docker, Kubenetes (GKE)',
+						},
+						{
+							selector: 'item',
+							label: 'Google Analytic, Google Tag Manager',
+						},
+						{
+							selector: 'item',
+							label: 'Google Optimize (A/B Testing)',
+						},
+						{
+							selector: 'item',
+							label: 'Google Search Console',
+						},
+						{
+							selector: 'item',
+							label: 'Jira, Wiki (Collaboration tools)',
+						},
 					],
 				},
 				{
-					name: 'Refinitiv Software (Thailand)',
+					name: 'Refinitiv Software (Thailand) Company Limited',
 					subheader: 'Frontend Software Engineer',
 					dateTime: 'June 2019 - July 2021',
 					descriptions: [
@@ -313,8 +353,7 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label:
-								'Collaborated with UX/UI Designer, BA, PM and stakeholders and stakeholders',
+							label: 'Collaborated with UX/UI Designer, BA, PM and stakeholders',
 						},
 						{
 							selector: 'item',
@@ -416,6 +455,23 @@ export const resume = {
 			],
 		},
 		{
+			sectionName: 'EDUCATION',
+			details: [
+				{
+					name: 'Chulalongkorn University',
+					subheader: 'B.Eng. in Computer Engineering',
+					dateTime: 'Aug 2015 - May 2019',
+					descriptions: [
+						{
+							selector: 'item',
+							label:
+								'<b>Elective Courses: </b>Data Science and Engineering, Artificial intelligence, Cloud computing, Computer Security, MERN Stack, High Tech Entrepreneurship',
+						},
+					],
+				},
+			],
+		},
+		{
 			sectionName: 'PROJECTS',
 			details: [
 				{
@@ -470,7 +526,7 @@ export const resume = {
 					],
 				},
 				{
-					name: 'Thai Chess Record Converter',
+					name: 'Thai Chess Record Converter (Closed)',
 					link: 'https://asastamp.github.io/playok-converter/',
 					descriptions: [
 						{
@@ -492,7 +548,7 @@ export const resume = {
 					],
 				},
 				{
-					name: 'Book Recommendation System For Library',
+					name: 'Book Recommendation System For Library (Closed)',
 					descriptions: [
 						{
 							selector: 'label',
@@ -548,7 +604,7 @@ export const resume = {
 					],
 				},
 				{
-					name: 'GenEd LINE Chatbot',
+					name: 'GenEd LINE Chatbot (Closed)',
 					descriptions: [
 						{
 							selector: 'label',
