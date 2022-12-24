@@ -127,7 +127,19 @@ export const resume = {
 				},
 			],
 		},
-
+		{
+			topic: 'Web proxy',
+			skill: [
+				{
+					path: 'assets/icons/technology/mysql.svg',
+					name: 'nginx',
+				},
+				{
+					path: 'assets/icons/technology/prosgresql.svg',
+					name: 'Lua',
+				},
+			],
+		},
 		{
 			topic: 'DevOps',
 			skill: [
