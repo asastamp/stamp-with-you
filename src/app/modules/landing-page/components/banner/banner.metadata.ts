@@ -132,7 +132,7 @@ export const resume = {
 			skill: [
 				{
 					path: 'assets/icons/technology/nginx.png',
-					name: 'nginx',
+					name: 'Nginx',
 				},
 				{
 					path: 'assets/icons/technology/lua.png',
