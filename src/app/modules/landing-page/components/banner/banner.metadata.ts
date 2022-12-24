@@ -131,11 +131,11 @@ export const resume = {
 			topic: 'Web proxy',
 			skill: [
 				{
-					path: 'assets/icons/technology/mysql.svg',
+					path: 'assets/icons/technology/nginx.ong',
 					name: 'nginx',
 				},
 				{
-					path: 'assets/icons/technology/prosgresql.svg',
+					path: 'assets/icons/technology/lua.png',
 					name: 'Lua',
 				},
 			],
