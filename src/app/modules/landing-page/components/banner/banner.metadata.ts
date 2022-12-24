@@ -365,7 +365,7 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Collaborated with UX/UI Designer, BA, PM and stakeholders',
+							label: 'Collaborated with UX/UI Designer, BA, PM, and stakeholders',
 						},
 						{
 							selector: 'item',
@@ -390,10 +390,6 @@ export const resume = {
 						{
 							selector: 'item',
 							label: 'Vanilla Js',
-						},
-						{
-							selector: 'item',
-							label: 'Typescript',
 						},
 						{
 							selector: 'item',
