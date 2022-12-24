@@ -225,7 +225,7 @@ export const resume = {
 				{
 					name: 'Tencent (Thailand) Company Limited',
 					subheader: 'Fullstack Software Engineer (IT Sanook)',
-					dateTime: 'Aug 2020 - Present',
+					dateTime: 'Aug 2021 - Present',
 					descriptions: [
 						{
 							selector: 'label',
