@@ -5,6 +5,7 @@ export const resume = {
 		{
 			path: 'assets/icons/contact/email.png',
 			name: 'n_kittiphan@hotmail.com',
+			link: 'mailto: n_kittiphan@hotmail.com?subject=Hello Stamp',
 		},
 		{
 			path: 'assets/icons/contact/facebook.svg',
@@ -245,39 +246,35 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label: 'Developed website sanook.com both frontend and backend',
+							label: 'Developed website sanook.com using NextJS and NestJS',
 						},
 						{
 							selector: 'item',
-							label: 'Maintained NGINX reverse proxy',
+							label: 'Maintained NGINX Web Server',
 						},
 						{
 							selector: 'item',
 							label:
-								'Optimized web performance to support high traffic e.g. lotto day',
+								'Optimized web performance to support high-traffic peak hours e.g. lottery day',
 						},
 						{
 							selector: 'item',
-							label: 'Improved Core Web Vitals',
+							label:
+								'Optimized web performance to support high-traffic peak hours e.g. lottery day',
 						},
 
 						{
 							selector: 'item',
-							label: 'Setup CI/CD',
+							label: 'Improved Core Web Vitals',
 						},
 						{
 							selector: 'item',
 							label:
-								'Monitored web with Newrelic, GKE, Google analytic, and Google search console',
+								'Monitored website with New Relic, Google Analytics, Google Kubernetes Engine',
 						},
 						{
 							selector: 'item',
-							label: 'Planned and prioritized tasks to meet the timeline',
-						},
-						{
-							selector: 'item',
-							label:
-								'Collaborated with team Infra / PM / Designer / Tester / SEO / Ads',
+							label: 'Collaborated with PM / Designer / Tester / Infra / SEO / Ads',
 						},
 						{
 							selector: 'label',

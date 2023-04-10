@@ -12,18 +12,10 @@
 			<div class="contact-group">
 				<ng-container *ngFor="let contact of resume.contacts">
 					<div class="left-panel-item">
-						<ng-container *ngIf="contact.link">
-							<a target="_blank" [href]="contact.link">
-								<img class="icon" [src]="contact.path" alt="" />
-								<div class="value clickable">{{ contact.name }}</div>
-							</a>
-						</ng-container>
-						<ng-container *ngIf="!contact.link">
+						<a target="_blank" [href]="contact.link">
 							<img class="icon" [src]="contact.path" alt="" />
-							<div class="value clickable" (click)="copyToClipboard($event)">
-								{{ contact.name }}
-							</div>
-						</ng-container>
+							<div class="value clickable">{{ contact.name }}</div>
+						</a>
 					</div>
 				</ng-container>
 			</div>
