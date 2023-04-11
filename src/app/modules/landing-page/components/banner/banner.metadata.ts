@@ -259,12 +259,6 @@ export const resume = {
 						},
 						{
 							selector: 'item',
-							label:
-								'Optimized web performance to support high-traffic peak hours e.g. lottery day',
-						},
-
-						{
-							selector: 'item',
 							label: 'Improved Core Web Vitals',
 						},
 						{
